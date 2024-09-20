@@ -1,0 +1,84 @@
+<html>
+<head>
+<style>
+
+button{
+border:none;
+border-radius:6px;
+background-color:blue;
+color:white;
+height: 30px;
+width: 150px;
+position:fixed;
+}
+.main{
+display:flex;
+margin-top:50px;
+margin-right:1px;
+justify-content: space-around;
+}
+
+.gb{
+margin-left: 450;
+}
+
+.d1{
+width:300;
+height:300;
+}
+
+</style>
+</head>
+
+<body align="center">
+
+<button onclick="location.href='main.html'" class="gb">Go Back</button><br>
+
+<div class="main">
+
+<div class="d1">
+<button class="bt1" onclick="pro1()" id='bt1'>Safe Locker</button> <br><br>
+<p class="s1" id='img1'></p>
+</div>
+
+<div class="d1">
+<button class="bt2" onclick="pro2()" id='bt2'>Loan</button><br><br>
+<p class="s2" id='img2'></p>
+</div>
+
+<div class="d1">
+<button class="bt3" onclick="pro3()" id='bt3'>Insurance</button><br><br>
+<p class="s3" id='img3'></p>
+</div>
+
+
+</div>
+
+
+<script>
+
+function pro1(){
+document.getElementById('img1').innerHTML="In finance, a loan is the transfer of money by one party to another with an agreement to pay it back. The recipient, or borrower, incurs a debt and is usually required to pay interest for the use of the money. The document evidencing the debt will normally specify, among other things, the principal amount of money borrowed, the interest rate the lender is charging, and the date of repayment. A loan entails the reallocation of the subject asset for a period of time, between the lender and the borrower. The interest provides an incentive for the lender to engage in the loan. In a legal loan, each of these obligations and restrictions is enforced by contract, which can also place the borrower under additional restrictions known as loan covenants. Although this article focuses on monetary loans, in practice, any material object might be lent. Acting as a provider of loans is one of the main activities of financial institutions such as banks and credit card companies. For other institutions, issuing of debt contracts such as bonds is a typical source of funding. ";
+document.getElementById('img1').style.display="block";
+document.getElementById('img2').style.display="none";
+document.getElementById('img3').style.display="none";
+
+}
+
+function pro2(){
+document.getElementById('img2').innerHTML="A locker is a small, usually narrow storage compartment. They are commonly found in dedicated cabinets, very often in large numbers, in various public places such as locker rooms, workplaces, schools, transport hubs and the like. They vary in size, purpose, construction, and security.";
+document.getElementById('img2').style.display="block";
+document.getElementById('img1').style.display="none";
+document.getElementById('img3').style.display="none";
+}
+
+function pro3(){
+document.getElementById('img3').innerHTML="Insurance is a means of protection from financial loss in which, in exchange for a fee, a party agrees to compensate another party in the event of a certain loss, damage, or injury. It is a form of risk management, primarily used to protect against the risk of a contingent or uncertain loss.";
+document.getElementById('img3').style.display="block";
+document.getElementById('img1').style.display="none";
+document.getElementById('img2').style.display="none";
+}
+
+</script>
+</body>
+</html>

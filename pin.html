@@ -1,0 +1,59 @@
+<html>
+<head>
+
+<style>
+.btns1{
+background-color:green;
+color:white;
+width:100px;
+height:30px;
+border-radius:8px;
+border:none;
+}
+
+.btns2{
+background-color:red;
+color:white;
+width:100px;
+height:30px;
+border-radius:8px;
+border:none;
+}
+</style>
+
+</head>
+<body align="center">
+<h1>Enter Pin</h1>
+<img src="pin.jfif" width="300px" height="300"><br><br>
+<input type="password" id="pin"><br><br>
+<button onclick="epin()" class="btns1">Continue</button><br><br>
+<button onclick="res()" class="btns2">Reset</button><br>
+<p onclick="location.href='atm.html'">Exit</p><br>
+
+<script>
+
+let ogpin = '2468';
+
+function epin(){
+
+let pin = parseInt(document.getElementById('pin').value);
+
+if(pin == ogpin){
+
+alert("Pin Successfully Entered");
+location.href="main.html";
+}
+
+else{
+alert("Pin does not match");
+}
+}
+
+function res(){
+document.getElementById('pin').value='';
+}
+
+
+</script>
+</body>
+</html>

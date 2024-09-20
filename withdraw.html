@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+.bal1{
+color:green;
+font-size:40px;
+}
+button{
+border:none;
+border-radius:6px;
+background-color:blue;
+color:white;
+height: 30px;
+width: 100px;
+}
+</style>
+</head>
+<body align="center">
+<h1>Withdrawal</h1>
+
+<p id='bal'>Enter the amount you want to withdraw: </p> <br><br>
+
+
+<input type="text" id="amt" placeholder="Enter Amount"><br><br>
+
+<button onclick="check()">Withdraw</button><br><br>
+
+<button onclick="res()" class="btns2">Reset</button><br><br>
+
+<button onclick="location.href='main.html'" class="gb">Go Back</button><br>
+
+
+
+<script>
+
+function check(){
+
+let amt=document.getElementById('amt').value;
+
+if(amt>10000 || amt<100){
+alert("Cannot withdraw amounts less than 100 or greater than 10000");
+}
+
+else if(amt%100!=0){
+alert("Enter multiple of 100.");
+}
+
+else{
+alert("Amount Withdrawn: " + amt);
+location.href="main.html";
+}
+
+}
+
+
+function res(){
+document.getElementById('amt').value='';
+}
+
+</script>
+</body>
+
+</html>

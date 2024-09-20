@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+button{
+border:none;
+border-radius:6px;
+background-color:blue;
+color:white;
+height: 30px;
+width: 150px;
+float:right;
+}
+img{
+margin:auto;
+height:50%;
+width:50%;
+}
+</style>
+</head>
+
+<body>
+<h1 align="center">CARD OFFERS</h1>
+<select id="s1" onclick="img1()">
+<option value="c0">Select card type</option>
+<optgroup label="Debit card type">
+<option value="c1" >Visa</option>
+<option value="c2">Mastercard</option>
+<option value="c3">Rupay</option>
+<optgroup label="Credit card type">
+<option value="c4">Visa</option>
+<option value="c5">Mastercard</option>
+<option value="c6">Rupay</option>
+</optgroup>
+</select><br><br>
+<button onclick="location.href='main.html'">Go Back</button>
+<img src="" id="image">
+<script>
+function img1(){
+let ctype=document.getElementById('s1').value;
+
+switch(ctype){
+
+case 'c0':
+document.getElementById('image').src="https://visiongulf.com/sites/default/files/styles/project_image/public/12-2018/cb-olympicpromo-ads-3.jpg?itok=tapkhq0B";
+break;
+
+case 'c1':
+document.getElementById('image').src="https://visiongulf.com/sites/default/files/styles/project_image/public/12-2018/cb-olympicpromo-ads-3.jpg?itok=tapkhq0B";
+break;
+
+case 'c2':
+document.getElementById('image').src="https://blog.creatopy.com/wp-content/uploads/2019/09/coconut-being-cut-by-credit-card-ad.jpg";
+break;
+
+case 'c3':
+document.getElementById('image').src="https://newspaperads.ads2publish.com/wp-content/uploads/2019/01/rupay-credit-debit-card-one-life-one-rupay-ad-times-of-india-mumbai-16-01-2019.png";
+break;
+
+case 'c4':
+document.getElementById('image').src="https://th.bing.com/th/id/OIP.znq6fiduL7_t-dHfBM3U8gAAAA?rs=1&pid=ImgDetMain";
+break;
+
+case 'c5':
+document.getElementById('image').src="https://th.bing.com/th/id/OIP.eF0zxPpjdRJJ7S8HcGPelwHaEf?w=1024&h=621&rs=1&pid=ImgDetMain";
+break;
+
+case 'c6':
+document.getElementById('image').src="https://cardinsider.com/wp-content/uploads/2021/12/Rupay-dining-offer-1024x1024.jpeg";
+break;
+
+}
+}
+</script>
+
+</body>
+</html>

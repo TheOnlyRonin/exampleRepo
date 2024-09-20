@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+button{
+border:none;
+border-radius:6px;
+background-color:blue;
+color:white;
+height: 30px;
+width: 150px;
+}
+</style>
+<body align="center">
+<h1>Change pin</h1>
+<label for="pin" >Enter old pin</label>
+<input type="password" id="pin1" placeholder="Enter old pin"> <br><br>
+<label for="pin" >Enter new pin</label>
+<input type="password" id="pin2" placeholder="Enter new pin"> <br><br>
+<label for="pin" >confirm new pin</label>
+<input type="password" id="pin3" placeholder="confirm new pin"> <br><br>
+<button onclick="change()">Change Pin</button>
+<script>
+function change(){
+let np=document.getElementById('pin2').value;
+let cp=document.getElementById('pin3').value;
+
+if(np==cp){
+alert("pin successfully changed")
+location.href="main.html";
+}
+else{
+alert("pin does not match")
+}
+
+}
+</script>
+</body>
+</head>
+</html>
