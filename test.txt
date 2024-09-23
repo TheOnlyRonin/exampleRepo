@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 jgdof;oifeqkhfhf[oiwqfpiwjgqpifvqbvfileqvbuf;ie1if'opjwqm'kflk;jbglds;kfkdjbfkjasbdlfhvuysavf
 =======
+=======
+>>>>>>> NewBranch
 jgdof;oifeqkhfhf[oiwqfpiwjkhdjkljdj
 
 
@@ -17,5 +20,9 @@ kcnkjbcms,.d'
 qw
 jbcjhvc
 
+<<<<<<< HEAD
+jcbhj.kxbk
+>>>>>>> NewBranch
+=======
 jcbhj.kxbk
 >>>>>>> NewBranch
