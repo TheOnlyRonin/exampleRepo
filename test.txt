@@ -1,5 +1,3 @@
-Jojo's Bizarre Adventures
--------------------------
 Joseph Joestar
 Noriyaki Kakyoin
 Jean Pierre Polnareff
@@ -10,4 +8,8 @@ Josuke Higashikata
 
 Kira Yoshikage
 Mohammed Avdol
-Dio Brando
+Dio Brando Ora Ora
+
+Jonathan Joestar
+Jolyne Kujo
+Koichi
