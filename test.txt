@@ -12,4 +12,4 @@ Dio Brando 1
 
 Jonathan Joestar
 Jolyne Kujo
-Koichi
+Koichi 2
