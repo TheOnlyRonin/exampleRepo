@@ -10,3 +10,9 @@ Josuke Higashikata
 
 Kira Yoshikage
 Mohammed Avdol
+<<<<<<< HEAD
+=======
+Dio Brando
+
+Jonathan Joestar
+>>>>>>> f399afbeb5d25dc069e34017ceecc4b1b15fdbad
